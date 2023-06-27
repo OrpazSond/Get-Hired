@@ -13,7 +13,7 @@ preparing a resume, a job search interface , career planner and more.
 ![Image](./cv.png)
 
 ### Practice Interview Questions - Technical Questions
-![Image](./ChatPageImg.png)
+![Image](./code-runner.png)
 
 ## Serch for jobs
 ![Image](./job-search.png)
