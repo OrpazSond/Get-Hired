@@ -1,0 +1,162 @@
+.template2 {
+  font-family: "calibri";
+  color: #000000;
+  max-width: 22cm;
+  max-height: 29.7cm;
+  display: grid;
+  grid-template-rows: 30% 70%;
+  height:27.9cm ;
+  word-break: break-all; 
+
+  
+
+
+}
+.template2 .header-2 h1, 
+.template2 .header-2 h4,
+.template2 .work-experience-2 .experience h3,
+.template2 .education-2 .education-item h3 {
+  word-break: break-all; 
+}
+
+.template2 .top-section {
+  grid-row: 1;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  padding: 1rem;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.template2 .top-section .header-and-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-wrap: break-word!important;
+
+}
+
+.template2 .bottom-section {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  overflow-wrap: break-word;
+
+}
+
+.template2 .bottom-section .left-column {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.template2 .bottom-section .right-column {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.template2 .bottom-section .divider {
+  width: 2px;
+  height: 100%;
+  background-color: #000000;
+  margin: 0 1rem;
+}
+
+.template2 .profile-image {
+  height: 250px;
+  margin-right: 20px;
+  margin: 20px;
+  border-width: 2px;
+  border-radius: 10px;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+
+}
+
+.template2 .header-2 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.template2 .header-2 h4 {
+  font-size: 1.5rem;
+
+}
+
+.template2 .personal-details-2 h3,
+.template2 .skills-2 h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+}
+
+.template2 .personal-details-2 h5 {
+  margin-bottom: 0.5rem;
+  align-items: center;
+  align-content: center;
+  font-size: 12px;
+}
+
+.template2 .summary-2 h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.template2 .summary-2 .summary {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.template2 .work-experience-2 h2,
+.template2 .education-2 h2,
+.template2 .skills-2 h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.template2 .date {
+  font-weight: bold;
+  color: #5b5b5c;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+.template2 .education-2 .grade {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+.template2 .description {
+  font-size: 0.9rem;
+}
+
+.template2 .work-experience-2 .experience,
+.template2 .education-2 .education-item {
+  margin: 0px;
+  border: 0cm;
+  padding: 0;
+}
+
+.template2 .work-experience-2 .experience h3,
+.template2 .education-2 .education-item h3 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin: 0px;
+  }
+  
+  .header-2 {
+  text-align: center;
+  padding: 1rem 0;
+  }
